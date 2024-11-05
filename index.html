@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>G Praveen Kumar Reddy (PORTFOLIO)</title>
+    
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/0d8c6deebc.js" crossorigin="anonymous"></script>
+</head>
+ 
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="webicon.jpg" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Skills</a></li>
+                    <li><a href="#portfolio">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fas fa-times" onclick="closemenu()"></i>
+                </ul>
+                <i class="fas fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p></p>
+                <h1><span><center>Welcome to My Portfolio!</center> </span></h1>
+                <br>
+                <h2><span><marquee direction="left" >PRAVEEN KUMAR REDDY</marquee></span></h2>
+                </div>
+                <br>
+                <h1 style="color: #2d8981; text-align: center;">Enthusiastic Java Developer</h1>
+
+            </div>
+        </div>
+    </div>
+
+    <!---About-->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="pro.jpg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>I'm <strong>Praveen Kumar Reddy</strong> , a passionate Computer Science graduate with a deep interest in full-stack development, specializing in backend technologies. With a solid foundation in Java and practical skills in both frontend and backend technologies, I am driven to create efficient, scalable, and user-friendly applications.</p>
+
+                       <p> I hold certifications in Java Full Stack Development from Pantech E-Learning and Wipro Talentnext, 
+                        which complement my academic background and hands-on experience with projects, including an Online Food Ordering System and Leaf Disease Detection using deep learning. My internship experience in Conversational Banking AI at SmartBridge helped me gain valuable industry insight into AI and customer engagement technologies.
+                        
+                        With strong problem-solving abilities and a commitment to continuous learning, I am focused on building impactful solutions and aiming to secure a role where I can contribute as an Application Developer. My goal is to grow within a collaborative environment and make meaningful contributions to the tech industry.</p>
+                        
+                       <p> In my free time, I enjoy playing cricket and spending time in agricultural fields, balancing my technical work with a love for nature and teamwork.</p>
+                        
+                        
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Programming Languages & Database</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                        <p class="tab-links" onclick="opentab('certifications')">Certifications</p>
+                        <p class="tab-links" onclick="opentab('software')">Software</p>
+                    </div>
+
+                    <!-- Skills Section -->
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>JAVA</span></li>
+                            <li><span>C Programming</span></li>
+                            <li><span>Python</span></li>
+                            <li><span>JavaScript</span></li>
+                            <li><span>MySQL</span></li>
+                        </ul>
+                    </div>
+
+                    <!-- Education Section -->
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>ANNAMACHARYA INSTITUTE OF TECHNOLOGY AND SCIENCES, RAJAMPET</span><br>Bachelor of Engineering in Computer Science and Engineering (2024)<br>CGPA: 8.32</li>
+                            <li><span>Sri Chaitanya Junior College, Kurnool</span><br>Intermediate (MPC)<br>2020<br>CGPA: 9.67</li>
+                            <li><span>Zilla Parishat High School, Godisalapalli</span><br>SSC (2018)<br>CGPA: 9.3</li>
+                        </ul>
+                    </div>
+
+                    <!-- Certifications Section -->
+                    <div class="tab-contents" id="certifications">
+                        <ul>
+                            <li><span>Java Full Stack Certification - Pantech E-Learning</span></li>
+                            <li><span>Java Full Stack Certification - Wipro Talentnext</span></li>
+                        </ul>
+                    </div>
+
+                    <!-- Software Section -->
+                    <div class="tab-contents" id="software">
+                        <ul>
+                            <li><span>PowerPoint</span></li>
+                            <li><span>VS Code</span></li>
+                            <li><span>Eclipse</span></li>
+                            <li><span>Git/GitHub</span></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Skills -->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">Skills</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Front-End Development</h2>
+                    <p>HTML, CSS, JavaScript, and React</p>
+                    <a href="https://www.w3schools.com/howto/howto_blog_become_frontenddev.asp">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-code-compare"></i>
+                    <h2>Back-End Development</h2>
+                    <p>Java, Spring, and MySQL</p>
+                    <a href="https://www.w3schools.com/java/">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Portfolio -->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Projects</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="project.jpg">
+                    <div class="layer">
+                        <h2>Leaf Disease Detection Using Deep Learning</h2>
+                        <p>Uses deep learning to identify plant diseases from leaf images, improving agricultural productivity and reducing manual inspection.</p>
+                        <a href="https://github.com/praveenkumarreddy18/leaf-disease-detection"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Contact -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i> praveenreddy202002@gmail.com</p>
+                    <p><i class="fa-sharp fa-solid fa-phone-volume"></i> 8897407096</p>
+                    <div class="social-icons">
+                        <a href="https://www.linkedin.com/in/praveenreddy4/"><i class="fa-brands fa-linkedin">linkedin profile</i></a>
+                    </div>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message" required></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p><i class="fa-solid fa-heart"></i> THANK YOU</p>
+        </div>
+    </div>
+
+    <!-- JavaScript for Tab Switching and Google Sheet Integration -->
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname) {
+            for (tablink of tablinks) {
+                tablink.classList.remove("active-link");
+            }
+            for (tabcontent of tabcontents) {
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+
+        var sidemenu = document.getElementById("sidemenu");
+        function openmenu() {
+            sidemenu.style.right = "0";
+        }
+        function closemenu() {
+            sidemenu.style.right = "-200px";
+        }
+
+        const scriptURL = 'https://script.google.com/home/projects/1hyyUX-5Srk_iwduzfgjJ0YTZV8obSz3p4HOzsTByaIFaJgN1iVhqFYXE/edit';
+        const form = document.forms['submit-to-google-sheet'];
+        const msg = document.getElementById("msg");
+
+        form.addEventListener('submit', e => {
+            e.preventDefault();
+            fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+                .then(response => {
+                    msg.innerHTML = "Message sent successfully";
+                    setTimeout(function () {
+                        msg.innerHTML = "";
+                    }, 5000);
+                    form.reset();
+                })
+                .catch(error => console.error('Error!', error.message));
+        });
+    </script>
+</body>
+
+</html>
