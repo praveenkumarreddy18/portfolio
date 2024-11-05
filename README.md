@@ -4,7 +4,7 @@ Welcome to my portfolio! This site showcases my skills, projects, and experience
 
 
 ## Live Demo
-[Live Demo]() - Check out the deployed version of the portfolio!
+[Live Demo](https://praveenkumarreddy18.github.io/portfolio/) - Check out the deployed version of the portfolio!
 
 ## About
 This portfolio was built to demonstrate my knowledge in frontend and backend development. It includes:
